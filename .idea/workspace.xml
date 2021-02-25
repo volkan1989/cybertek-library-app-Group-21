@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb78abaa-aa55-401d-b4f4-e09cda9f7280" name="Default Changelist" comment="test2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/step_definitions/US3_ShouldAccessToModules_StepDefenition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US3_ShouldAccessToModule.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/library/pages/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/pages/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/library/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/runner/CukesRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,7 @@
       <recent name="com.cybertek.library.runner" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: verify user status">
+  <component name="RunManager" selected="JUnit.CukesRunner">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -141,7 +144,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="US3_Modules" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -152,5 +167,23 @@
     <MESSAGE value="US10" />
     <MESSAGE value="test2" />
     <option name="LAST_COMMIT_MESSAGE" value="test2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="297" key="GridCell.Tab.0.bottom" timestamp="1614225387683">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="297" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1614225387683" />
+    <state width="1398" height="297" key="GridCell.Tab.0.center" timestamp="1614225387682">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="297" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1614225387682" />
+    <state width="1398" height="297" key="GridCell.Tab.0.left" timestamp="1614225387681">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="297" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1614225387681" />
+    <state width="1398" height="297" key="GridCell.Tab.0.right" timestamp="1614225387683">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="297" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1614225387683" />
   </component>
 </project>
