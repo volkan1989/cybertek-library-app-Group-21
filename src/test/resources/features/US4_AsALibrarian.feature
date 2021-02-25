@@ -14,5 +14,5 @@ Feature:  As a librarian, I should be able to add users from users page.
     Then User write "<address>" to address
 
     Examples:
-      | fullName         | password  | email          | userGroup | status | startDate  | address          |
+      | fullName         | password  | email           | userGroup | status | startDate  | address          |
       | Someone Someones | Something | Somed@gmail.com | Students  | ACTIVE | 2021-05-07 | Somewhere Street |
