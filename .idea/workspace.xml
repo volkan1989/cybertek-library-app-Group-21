@@ -93,6 +93,8 @@
       <list>
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="Cucumber Java.Scenario: verify user status" />
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: verify user status" />
       </list>
     </recent_temporary>
   </component>

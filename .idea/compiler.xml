@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cybertek-library-app-Group-21" />
+        <module name="cybertek21-cucumber-junit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cybertek-library-app-Group-21" target="8" />
+      <module name="cybertek21-cucumber-junit" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
