@@ -40,8 +40,25 @@ public class US4_LocatorsBase {
     @FindBy(id = "user_group_id")
     public WebElement userGroupDropDown;
 
+    @FindBy(xpath = "/html/body/main/section[2]/div[2]/div/div/div/div/form/div[1]/div/div[3]/div[1]/div/select/option[1]")
+    public WebElement userGroupOption;
+
     @FindBy(xpath = "//*[@id=\"user_group_id\"]/option[2]")
     public WebElement librarianOption;
+
+    @FindBy(id = "status")
+    public WebElement status;
+
+    @FindBy(xpath = "//*[@id=\"start_date\"]/input")
+    public WebElement startDate;
+
+    @FindBy(id = "address")
+    public WebElement address;
+
+    @FindBy(xpath = "/html/body/main/section[2]/div[2]/div/div/div/div/form/div[2]/button[2]")
+    public WebElement saveChanges;
+
+
 
 
 }
