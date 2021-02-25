@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class US6_TablesWithColumns {
 
     public US6_TablesWithColumns(){
-        PageFactory.initElements(Driver.getDriver(),this);
+        PageFactory.initElements(Driver.getDriver(), this);
 
 
 
