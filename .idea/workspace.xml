@@ -28,7 +28,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb78abaa-aa55-401d-b4f4-e09cda9f7280" name="Default Changelist" comment="" />
+    <list default="true" id="fb78abaa-aa55-401d-b4f4-e09cda9f7280" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/library/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/runner/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US4_AsALibrarian.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US4_AsALibrarian.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,13 +156,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="cucumber-report.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/cybertek21-cucumber-junit/target/cucumber-report.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JavaScript Debug.cucumber-report.html" />
         <item itemvalue="Application.deleteBeforeCommit" />
         <item itemvalue="Cucumber Java.Scenario: As a librarian, I should be able to add users from users page." />
         <item itemvalue="Cucumber Java.Scenario: verify user status" />
-        <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +182,7 @@
       <workItem from="1614048218672" duration="153000" />
       <workItem from="1614207216229" duration="6061000" />
       <workItem from="1614219011840" duration="431000" />
-      <workItem from="1614287778306" duration="4948000" />
+      <workItem from="1614287778306" duration="5965000" />
     </task>
     <task id="LOCAL-00001" summary="US10">
       <created>1614218911378</created>
@@ -233,7 +240,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614296021672</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="US4">
+      <created>1614296347285</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614296347285</updated>
+    </task>
+    <task id="LOCAL-00010" summary="US4_UserStory">
+      <created>1614296517307</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614296517307</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +288,7 @@
     <MESSAGE value="US10" />
     <MESSAGE value="test2" />
     <MESSAGE value="US4" />
-    <option name="LAST_COMMIT_MESSAGE" value="US4" />
+    <MESSAGE value="US4_UserStory" />
+    <option name="LAST_COMMIT_MESSAGE" value="US4_UserStory" />
   </component>
 </project>
