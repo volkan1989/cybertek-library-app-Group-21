@@ -47,7 +47,13 @@ public class US4_StepDefinitions  extends US4_LocatorsBase {
     public void user_select_in_user_group(String string) throws Exception{
        userGroupDropDown.click();
        Thread.sleep(1000);
-       librarianOption.click();
+
+       String userGroupOptions = librarianOption.getText();
+
+       if(librarianOption.getText().equals("Students")){
+           librarianOption.submit();
+       }
+
 
 
 

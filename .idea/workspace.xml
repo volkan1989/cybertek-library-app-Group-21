@@ -29,11 +29,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb78abaa-aa55-401d-b4f4-e09cda9f7280" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/pages/US4_LocatorsBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/library/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/runner/CukesRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/library/step_definitions/US4_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/step_definitions/US4_StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US4_AsALibrarian.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US4_AsALibrarian.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +165,7 @@
       <workItem from="1614048218672" duration="153000" />
       <workItem from="1614207216229" duration="6061000" />
       <workItem from="1614219011840" duration="431000" />
-      <workItem from="1614287778306" duration="304000" />
+      <workItem from="1614287778306" duration="1245000" />
     </task>
     <task id="LOCAL-00001" summary="US10">
       <created>1614218911378</created>
@@ -191,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614225853009</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="US4">
+      <created>1614288203562</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614288203562</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,43 +230,5 @@
     <MESSAGE value="test2" />
     <MESSAGE value="US4" />
     <option name="LAST_COMMIT_MESSAGE" value="US4" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="360" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614227353538">
-      <screen x="0" y="25" width="1792" height="1045" />
-    </state>
-    <state x="360" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/432.-743.1360.743/1792.-411.1680.1025/0.25.1792.1045@0.25.1792.1045" timestamp="1614227353538" />
-    <state x="468" y="132" key="CommitChangelistDialog2" timestamp="1614225852884">
-      <screen x="0" y="25" width="1792" height="1045" />
-    </state>
-    <state x="468" y="132" key="CommitChangelistDialog2/432.-743.1360.743/1792.-411.1680.1025/0.25.1792.1045@0.25.1792.1045" timestamp="1614225852884" />
-    <state width="1750" height="260" key="GridCell.Tab.0.bottom" timestamp="1614282047957">
-      <screen x="0" y="25" width="1792" height="1045" />
-    </state>
-    <state width="1750" height="260" key="GridCell.Tab.0.bottom/432.-743.1360.743/1792.-411.1680.1025/0.25.1792.1045@0.25.1792.1045" timestamp="1614282047957" />
-    <state width="1750" height="260" key="GridCell.Tab.0.center" timestamp="1614282047956">
-      <screen x="0" y="25" width="1792" height="1045" />
-    </state>
-    <state width="1750" height="260" key="GridCell.Tab.0.center/432.-743.1360.743/1792.-411.1680.1025/0.25.1792.1045@0.25.1792.1045" timestamp="1614282047956" />
-    <state width="1750" height="260" key="GridCell.Tab.0.left" timestamp="1614282047956">
-      <screen x="0" y="25" width="1792" height="1045" />
-    </state>
-    <state width="1750" height="260" key="GridCell.Tab.0.left/432.-743.1360.743/1792.-411.1680.1025/0.25.1792.1045@0.25.1792.1045" timestamp="1614282047956" />
-    <state width="1750" height="260" key="GridCell.Tab.0.right" timestamp="1614282047956">
-      <screen x="0" y="25" width="1792" height="1045" />
-    </state>
-    <state width="1750" height="260" key="GridCell.Tab.0.right/432.-743.1360.743/1792.-411.1680.1025/0.25.1792.1045@0.25.1792.1045" timestamp="1614282047956" />
-    <state x="405" y="180" key="SettingsEditor" timestamp="1614227203933">
-      <screen x="0" y="25" width="1792" height="1045" />
-    </state>
-    <state x="405" y="180" key="SettingsEditor/432.-743.1360.743/1792.-411.1680.1025/0.25.1792.1045@0.25.1792.1045" timestamp="1614227203933" />
-    <state x="496" y="281" key="Vcs.Push.Dialog.v2" timestamp="1614225858177">
-      <screen x="0" y="25" width="1792" height="1045" />
-    </state>
-    <state x="496" y="281" key="Vcs.Push.Dialog.v2/432.-743.1360.743/1792.-411.1680.1025/0.25.1792.1045@0.25.1792.1045" timestamp="1614225858177" />
-    <state x="618" y="261" key="git4idea.branch.GitSmartOperationDialog" timestamp="1614225762084">
-      <screen x="0" y="25" width="1792" height="1045" />
-    </state>
-    <state x="618" y="261" key="git4idea.branch.GitSmartOperationDialog/432.-743.1360.743/1792.-411.1680.1025/0.25.1792.1045@0.25.1792.1045" timestamp="1614225762084" />
   </component>
 </project>
