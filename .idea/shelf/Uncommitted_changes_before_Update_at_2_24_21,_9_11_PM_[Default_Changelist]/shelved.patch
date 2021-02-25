@@ -1,0 +1,13 @@
+Index: cybertek-library-app-Group-21.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cybertek-library-app-Group-21.iml b/cybertek-library-app-Group-21.iml
+deleted file mode 100644
+--- a/cybertek-library-app-Group-21.iml	(revision 4f5a99f28418a37ee6c79ed73fc15ba9266a08d5)
++++ /dev/null	(revision 4f5a99f28418a37ee6c79ed73fc15ba9266a08d5)
+@@ -1,2 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="JAVA_MODULE" version="4" />
+\ No newline at end of file
