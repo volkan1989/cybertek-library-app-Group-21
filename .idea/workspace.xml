@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb78abaa-aa55-401d-b4f4-e09cda9f7280" name="Default Changelist" comment="test2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/pages/US6_TablesWithColumns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/step_definitions/US6_TablesWithColumns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US6_TablesWithColumns.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/library/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/runner/CukesRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +48,14 @@
       <recent name="com.cybertek.library.runner" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: verify user status">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,15 +80,10 @@
       </method>
     </configuration>
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cybertek-library-app-Group-21" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.library.runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <module name="cybertek21-cucumber-junit" />
       <option name="PACKAGE_NAME" value="com.cybertek.library.runner" />
       <option name="MAIN_CLASS_NAME" value="com.cybertek.library.runner.CukesRunner" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,6 +111,7 @@
       <workItem from="1614048218672" duration="153000" />
       <workItem from="1614207216229" duration="6061000" />
       <workItem from="1614219011840" duration="431000" />
+      <workItem from="1614226576012" duration="3581000" />
     </task>
     <task id="LOCAL-00001" summary="US10">
       <created>1614218911378</created>
