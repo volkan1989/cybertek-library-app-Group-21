@@ -23,14 +23,22 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:US3_Modules" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb78abaa-aa55-401d-b4f4-e09cda9f7280" name="Default Changelist" comment="">
+    <list default="true" id="fb78abaa-aa55-401d-b4f4-e09cda9f7280" name="Default Changelist" comment="ignoring library app file">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cybertek21-cucumber-junit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cybertek21-cucumber-junit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/library/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/runner/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/library/step_definitions/US3_Part2_StepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/step_definitions/US3_Part2_StepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/library/step_definitions/US3_ShouldAccessToModules_StepDefenition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/step_definitions/US3_ShouldAccessToModules_StepDefenition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US3_Part2Librarian.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US3_Part2Librarian.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US3_ShouldAccessToModule.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US3_ShouldAccessToModule.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +146,7 @@
         <item itemvalue="Cucumber Java.Scenario: verify user status" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="Cucumber Java.Scenario: verify user status" />
+        <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +202,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="US3_Modules" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -210,7 +219,8 @@
     <MESSAGE value="US10" />
     <MESSAGE value="test2" />
     <MESSAGE value="US3_Modules_commit1" />
-    <option name="LAST_COMMIT_MESSAGE" value="US3_Modules_commit1" />
+    <MESSAGE value="ignoring library app file" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignoring library app file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="96" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614227339259">
@@ -221,29 +231,43 @@
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="507" y="146" key="#com.intellij.ide.macro.MacrosDialog/0.23.1440.823@0.23.1440.823" timestamp="1614226951139" />
-    <state x="272" y="23" key="CommitChangelistDialog2" timestamp="1614225437320">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state x="272" y="0" key="CommitChangelistDialog2" timestamp="1614273096574">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="272" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614273096574" />
     <state x="272" y="23" key="CommitChangelistDialog2/0.23.1440.823@0.23.1440.823" timestamp="1614225437320" />
-    <state width="1398" height="297" key="GridCell.Tab.0.bottom" timestamp="1614227119503">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1388" height="593" key="GridCell.Tab.0.bottom" timestamp="1614274279203">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1388" height="593" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614274279203" />
+    <state width="1868" height="281" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1614262964774" />
     <state width="1398" height="297" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1614227119503" />
-    <state width="1398" height="297" key="GridCell.Tab.0.center" timestamp="1614227119502">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1388" height="593" key="GridCell.Tab.0.center" timestamp="1614274279202">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1388" height="593" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614274279202" />
+    <state width="1868" height="281" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1614262964771" />
     <state width="1398" height="297" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1614227119502" />
-    <state width="1398" height="297" key="GridCell.Tab.0.left" timestamp="1614227119500">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1388" height="593" key="GridCell.Tab.0.left" timestamp="1614274279200">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1388" height="593" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614274279200" />
+    <state width="1868" height="281" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1614262964770" />
     <state width="1398" height="297" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1614227119500" />
-    <state width="1398" height="297" key="GridCell.Tab.0.right" timestamp="1614227119502">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1388" height="593" key="GridCell.Tab.0.right" timestamp="1614274279202">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1388" height="593" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614274279202" />
+    <state width="1868" height="281" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1614262964773" />
     <state width="1398" height="297" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1614227119502" />
-    <state x="320" y="174" key="Vcs.Push.Dialog.v2" timestamp="1614225441212">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1614273124037">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614273124037" />
     <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.23.1440.823@0.23.1440.823" timestamp="1614225441212" />
+    <state x="499" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614273157596">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="499" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614273157596" />
   </component>
 </project>
