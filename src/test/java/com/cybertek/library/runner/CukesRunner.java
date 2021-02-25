@@ -20,8 +20,9 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/cybertek/library/step_definitions" ,
         dryRun = false,
-        tags = "@UserStory7"
+        tags = "@TC1"
 )
 
 public class CukesRunner {
+
 }
