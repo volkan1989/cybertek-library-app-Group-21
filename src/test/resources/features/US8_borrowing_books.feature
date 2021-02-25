@@ -11,4 +11,4 @@ Feature: As a user, I should able to see my borrowing books
   |Borrowed Data      |
   |Planned Return Data|
   |Return Data        |
-  |Is Returned?       |
+  |Is Returned        |
