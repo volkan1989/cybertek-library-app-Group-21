@@ -29,9 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb78abaa-aa55-401d-b4f4-e09cda9f7280" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/library/pages/US4_LocatorsBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/pages/US4_LocatorsBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/library/step_definitions/US4_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/step_definitions/US4_StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US4_AsALibrarian.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US4_AsALibrarian.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +177,7 @@
       <workItem from="1614048218672" duration="153000" />
       <workItem from="1614207216229" duration="6061000" />
       <workItem from="1614219011840" duration="431000" />
-      <workItem from="1614287778306" duration="4258000" />
+      <workItem from="1614287778306" duration="4626000" />
     </task>
     <task id="LOCAL-00001" summary="US10">
       <created>1614218911378</created>
@@ -223,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614289348508</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="US4">
+      <created>1614295890444</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614295890444</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
