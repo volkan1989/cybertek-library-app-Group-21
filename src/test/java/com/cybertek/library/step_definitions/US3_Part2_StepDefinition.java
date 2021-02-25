@@ -21,9 +21,9 @@ public class US3_Part2_StepDefinition {
        loginPage.loginToLibrary("librarian43");
     }
 
-    @Then("the user should see following modules")
-    public void the_user_should_see_following_modules(List<String> expectedModules) {
 
+    @Then("the librarian should see following modules")
+    public void the_librarian_should_see_following_modules(List<String> expectedModules) {
         System.out.println("user should see the modules = " + expectedModules);
 
         //User should ables to see modules
@@ -35,7 +35,7 @@ public class US3_Part2_StepDefinition {
 
         Driver.closeDriver();
 
-    }
+        }
 
 
 }

@@ -22,10 +22,9 @@ public class US3_ShouldAccessToModules_StepDefenition {
         homePage.loginPaged();
     }
 
-
-    @Then("the user should see following modules")
-    public void the_user_should_see_following_modules(List<String> expectedResult) {
-     //Loop through List of WebElements,pass in to place holder list
+    @Then("the student should see following modules")
+    public void the_student_should_see_following_modules(List<String> expectedResult) {
+        //Loop through List of WebElements,pass in to place holder list
         System.out.println("user should see 2 following modules "+ expectedResult);
         for (WebElement eachModules :homePage.modules){
             System.out.println("eachModules = "+eachModules.isDisplayed());
@@ -33,4 +32,6 @@ public class US3_ShouldAccessToModules_StepDefenition {
         BrowserUtils.wait(3);
 
     }
+
+
 }
