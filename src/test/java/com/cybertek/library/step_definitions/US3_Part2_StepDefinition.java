@@ -43,11 +43,14 @@ public class US3_Part2_StepDefinition {
 
         System.out.println("user should see the modules = " + expectedModules);
 
+        //User should ables to see modules
         for (WebElement eachModules : modules.Librarianmodules) {
             System.out.println("eachModules = " + eachModules.isDisplayed());
         }
 
-        BrowserUtils.wait(5);
+        BrowserUtils.wait(3);
+
+        Driver.closeDriver();
 
     }
 
