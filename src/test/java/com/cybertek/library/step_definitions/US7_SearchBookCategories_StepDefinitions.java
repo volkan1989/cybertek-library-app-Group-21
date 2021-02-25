@@ -1,5 +1,6 @@
 package com.cybertek.library.step_definitions;
 
+import com.cybertek.library.pages.LoginPage;
 import com.cybertek.library.pages.US7_searchBookCategoriesPage;
 import com.cybertek.library.utilities.BrowserUtils;
 import io.cucumber.java.en.Given;
@@ -13,14 +14,15 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.List;
 
 public class US7_SearchBookCategories_StepDefinitions {
+
     US7_searchBookCategoriesPage us7_searchBookCategoriesPage = new US7_searchBookCategoriesPage();
+    LoginPage loginPage = new LoginPage();
+
 
     @When("User logs in")
     public void user_logs_in() {
 
-        us7_searchBookCategoriesPage.inputEmail.sendKeys("student63@library");
-        us7_searchBookCategoriesPage.inputPassword.sendKeys("Jg2orVoF");
-        us7_searchBookCategoriesPage.signInButton.click();
+      loginPage.loginToLibrary("student54");
     }
 
     @Given("User is on the Book Management page")

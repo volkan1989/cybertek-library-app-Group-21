@@ -2,6 +2,10 @@ Feature: search books categories
   As a students, I should be able to search books with different categories.
 
 
+
+  Background:
+    Given the user on login page
+
 #Credentials :
 #username: student54@library
 #password: 3nHQlWhN
