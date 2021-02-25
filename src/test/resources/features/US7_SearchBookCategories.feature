@@ -1,10 +1,12 @@
 Feature: search books categories
   As a students, I should be able to search books with different categories.
 
+
 #Credentials :
-#username: student63@library
-#password: Jg2orVoF
-  @userStory7
+#username: student54@library
+#password: 3nHQlWhN
+
+  @UserStory7
   Scenario: Student should be able to search books with different categories
     When User logs in
     Given User is on the Book Management page

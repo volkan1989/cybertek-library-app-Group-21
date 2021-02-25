@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
-public class US7_searchBookCategories_StepDefinitions {
+public class US7_SearchBookCategories_StepDefinitions {
     US7_searchBookCategoriesPage us7_searchBookCategoriesPage = new US7_searchBookCategoriesPage();
 
     @When("User logs in")
@@ -61,6 +61,7 @@ public class US7_searchBookCategories_StepDefinitions {
         //Select all the options from select dropdown
         List<WebElement> allOptions = selectCategories.getOptions();
 
+
         //Loop through the List and click to each option
         for (WebElement eachCategory : allOptions) {
 
@@ -68,11 +69,13 @@ public class US7_searchBookCategories_StepDefinitions {
             eachCategory.click();
 
             // Print out all selected values.
-            System.out.println("Selected: " + eachCategory.getText());
+           System.out.println("Selected: " + eachCategory.getText());
 
             //Verifying each option is selected:
-            Assert.assertTrue(eachCategory.isSelected());
-        }
+          Assert.assertTrue(eachCategory.isSelected());
+       }
+
+
 
 
 
