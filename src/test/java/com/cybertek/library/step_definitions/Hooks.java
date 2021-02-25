@@ -13,17 +13,15 @@ public class Hooks {
         System.out.println("Setting up browser with details");
     }
     @After
-    public void tearDownScenario(Scenario scenario){
-        if (scenario.isFailed()){
+    public void tearDownScenario(Scenario scenario) {
+        if (scenario.isFailed()) {
             System.out.println("Test FAILED");
-        }else {
+        } else {
             System.out.println("---Take a screenshot");
             System.out.println("---Closing browser and ");
         }
         System.out.println("******************************");
         Driver.closeDriver();
-
     }
-
 
 }
