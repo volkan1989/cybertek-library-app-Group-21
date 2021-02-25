@@ -17,10 +17,10 @@ import org.junit.runner.RunWith;
         "rerun:target/rerun.txt"// this plugin will allow us to store failed tests in a .txt file
         // we will have 2nd runner class which will be reading from this running only fails tests
 },
-        features = "src/test/resources/features",
-        glue = "com/cybertek/library/step_definitions" ,
+        features = "src/test/resources",
+        glue = "src/test/java/com/cybertek/library/step_definitions" ,
         dryRun = false,
-        tags = "@UserStory7"
+        tags = ""
 )
 
 public class CukesRunner {

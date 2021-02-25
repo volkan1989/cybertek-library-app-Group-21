@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb78abaa-aa55-401d-b4f4-e09cda9f7280" name="Default Changelist" comment="test2">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/User_Story_04.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/library/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/runner/CukesRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,17 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1oky0efofgLanL29CIE1L9NYL4v" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -45,7 +56,7 @@
       <recent name="com.cybertek.library.runner" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: verify user status">
+  <component name="RunManager" selected="JUnit.CukesRunner">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -79,7 +90,8 @@
       </method>
     </configuration>
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cybertek-library-app-Group-21" />
+      <module name="cybertek21-cucumber-junit" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cybertek.library.runner.*" />
@@ -88,6 +100,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.cybertek.library.runner" />
       <option name="MAIN_CLASS_NAME" value="com.cybertek.library.runner.CukesRunner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FailedTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cybertek21-cucumber-junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.library.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.library.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.library.runner.FailedTestRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,10 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="Cucumber Java.Scenario: verify user status" />
+        <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="Cucumber Java.Scenario: verify user status" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +171,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="User_Story_04" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -152,5 +194,27 @@
     <MESSAGE value="US10" />
     <MESSAGE value="test2" />
     <option name="LAST_COMMIT_MESSAGE" value="test2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="683" y="265" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1614223184462">
+      <screen x="0" y="25" width="1792" height="1045" />
+    </state>
+    <state x="683" y="265" key="#com.intellij.ide.macro.MacrosDialog/432.-743.1360.743/1792.-411.1680.1025/0.25.1792.1045@0.25.1792.1045" timestamp="1614223184462" />
+    <state width="1750" height="282" key="GridCell.Tab.0.bottom" timestamp="1614223651053">
+      <screen x="0" y="25" width="1792" height="1045" />
+    </state>
+    <state width="1750" height="282" key="GridCell.Tab.0.bottom/432.-743.1360.743/1792.-411.1680.1025/0.25.1792.1045@0.25.1792.1045" timestamp="1614223651053" />
+    <state width="1750" height="282" key="GridCell.Tab.0.center" timestamp="1614223651052">
+      <screen x="0" y="25" width="1792" height="1045" />
+    </state>
+    <state width="1750" height="282" key="GridCell.Tab.0.center/432.-743.1360.743/1792.-411.1680.1025/0.25.1792.1045@0.25.1792.1045" timestamp="1614223651052" />
+    <state width="1750" height="282" key="GridCell.Tab.0.left" timestamp="1614223651052">
+      <screen x="0" y="25" width="1792" height="1045" />
+    </state>
+    <state width="1750" height="282" key="GridCell.Tab.0.left/432.-743.1360.743/1792.-411.1680.1025/0.25.1792.1045@0.25.1792.1045" timestamp="1614223651052" />
+    <state width="1750" height="282" key="GridCell.Tab.0.right" timestamp="1614223651053">
+      <screen x="0" y="25" width="1792" height="1045" />
+    </state>
+    <state width="1750" height="282" key="GridCell.Tab.0.right/432.-743.1360.743/1792.-411.1680.1025/0.25.1792.1045@0.25.1792.1045" timestamp="1614223651053" />
   </component>
 </project>
