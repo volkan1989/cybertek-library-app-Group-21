@@ -51,7 +51,7 @@ public class US4_StepDefinitions  extends US4_LocatorsBase {
        String userGroupOptions = librarianOption.getText();
 
        if(librarianOption.getText().equals("Students")){
-           librarianOption.submit();
+           librarianOption.click();
        }
 
 
