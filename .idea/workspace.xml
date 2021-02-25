@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb78abaa-aa55-401d-b4f4-e09cda9f7280" name="Default Changelist" comment="stepDef">
+    <list default="true" id="fb78abaa-aa55-401d-b4f4-e09cda9f7280" name="Default Changelist" comment="stepDef1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/library/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/runner/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/library/step_definitions/US6_TablesWithColumns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/step_definitions/US6_TablesWithColumns_StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US6_TablesWithColumns.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US6_TablesWithColumns.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/library/pages/US6_TablesWithColumns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/pages/US6_TablesWithColumns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/library/step_definitions/US6_TablesWithColumns_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/library/step_definitions/US6_TablesWithColumns_StepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +47,15 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CukesRunner">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,7 +111,8 @@
       <workItem from="1614048218672" duration="153000" />
       <workItem from="1614207216229" duration="6061000" />
       <workItem from="1614219011840" duration="431000" />
-      <workItem from="1614226576012" duration="6495000" />
+      <workItem from="1614226576012" duration="6718000" />
+      <workItem from="1614263500907" duration="3011000" />
     </task>
     <task id="LOCAL-00001" summary="US10">
       <created>1614218911378</created>
@@ -133,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614230860985</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="stepDef1">
+      <created>1614238289967</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614238289967</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +164,7 @@
     <MESSAGE value="US10" />
     <MESSAGE value="test2" />
     <MESSAGE value="stepDef" />
-    <option name="LAST_COMMIT_MESSAGE" value="stepDef" />
+    <MESSAGE value="stepDef1" />
+    <option name="LAST_COMMIT_MESSAGE" value="stepDef1" />
   </component>
 </project>
