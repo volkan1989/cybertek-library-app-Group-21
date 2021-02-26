@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb78abaa-aa55-401d-b4f4-e09cda9f7280" name="Default Changelist" comment="US 8">
+    <list default="true" id="fb78abaa-aa55-401d-b4f4-e09cda9f7280" name="Default Changelist" comment="ignoring library app file">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
